@@ -1,5 +1,5 @@
 spring:
   cloud:
     config:
-      allowOverride: true
+      allow-override: true
       override-none: true
