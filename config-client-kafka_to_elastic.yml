@@ -14,7 +14,7 @@ kafka-consumer-config:
   value-deserializer: io.confluent.kafka.serializers.KafkaAvroDeserializer
   consumer-group-id: twitter-topic-consumer
   auto-offset-reset: earliest
-  specific-avro-reader-key: specific.avro.reader
+  specific-avro-reader-key: specific.avrosreader
   specific-avro-reader: true
   batch-listener: true
   auto-startup: false
